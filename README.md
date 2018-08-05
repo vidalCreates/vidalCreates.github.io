@@ -2,4 +2,4 @@
 
 My portfolio, a little about me and what i've worked on.
 
-
+*Currently under construction*
