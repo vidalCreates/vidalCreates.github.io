@@ -12,6 +12,10 @@ header {
   // font
   text-align: center;
   line-height: $header-height;
+  font-size: 1.2rem;
+  letter-spacing: .2rem;
+  word-spacing: .5rem;
+  text-transform: capitalize;
   // color
   color: white;
   background: grey;
