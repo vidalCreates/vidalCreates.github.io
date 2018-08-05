@@ -15,11 +15,10 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-section {
-  padding: 3rem;
-  min-height: 100vh;
-}
-
 @import "base/colors";
 @import "base/typography";
 @import "base/mixins";
+
+@import "components/header";
+@import "components/section";
+@import "components/footer";

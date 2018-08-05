@@ -1,3 +1,24 @@
 $color-primary: green;
 $color-primary-light: lightgreen;
 $color-primary-dark: darkgreen;
+
+.color-primary {
+  color: $color-primary;
+}
+
+.color-primary-dark {
+  color: $color-primary-dark;
+}
+
+.color-primary-light {
+  color: $color-primary-light;
+}
+
+.background-grey {
+  background: lightgray;
+}
+
+.dark {
+  background: darkslategray;
+  color: white;
+}
