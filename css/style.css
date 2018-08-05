@@ -1,0 +1,37 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-family: 'Roboto', sans-serif;
+  padding: 3rem; }
+
+.heading-primary {
+  display: block;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 35px;
+  letter-spacing: 5px;
+  word-spacing: 10px;
+  text-transform: uppercase;
+  color: green;
+  background: lightgrey; }
+
+.heading-secondary {
+  display: block;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 25px;
+  letter-spacing: 3px;
+  word-spacing: 7px;
+  text-transform: capitalize;
+  color: darkgreen;
+  background: lightgrey; }
