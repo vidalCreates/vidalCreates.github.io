@@ -1,4 +1,23 @@
 section {
   position: raltive;
   min-height: 100vh;
+  padding: 2rem;
+  background: rgba($color-primary-dark, 0.8);
+}
+
+.section-small {
+  min-height: 50vh;
+}
+
+.section-landing {
+  padding: 0rem;
+  background: linear-gradient(rgba(black, 0.8), rgba($color-primary-dark, 0.8));
+}
+
+.section-profile {
+  background: rgba(white, .8);
+}
+
+.section-social {
+  background: linear-gradient(rgba($color-primary-dark, 0.8), rgba($color-primary-dark, 1));
 }

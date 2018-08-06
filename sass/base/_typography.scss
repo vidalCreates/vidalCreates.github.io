@@ -31,12 +31,16 @@
 
 .title {
   // positioning
-  display: inline-block;
+  display: block;
+  text-align: center;
   // sizing
+  padding-top: 10px;
+  padding-bottom: 10px;
   // font
-  font-size: 1.2rem;
+  font-size: 3rem;
   letter-spacing: .2rem;
-  word-spacing: .5rem;
+  word-spacing: .75rem;
+  font-weight: 500;
   text-transform: capitalize;
 }
 
@@ -58,7 +62,6 @@
   line-height: 2.3rem;
   // color
   color: black;
-  background: rgba(white, .5);
 }
 
 .main-heading {
