@@ -1,6 +1,7 @@
 $color-primary: green;
 $color-primary-light: lightgreen;
 $color-primary-dark: darkgreen;
+$color-accent: orange;
 
 .color-primary {
   color: $color-primary;
@@ -12,6 +13,14 @@ $color-primary-dark: darkgreen;
 
 .color-primary-light {
   color: $color-primary-light;
+}
+
+.color-accent {
+  color: $color-accent;
+}
+
+.color-white {
+  color: white;
 }
 
 .background-grey {

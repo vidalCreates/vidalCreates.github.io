@@ -11,6 +11,15 @@ html {
 body {
   font-family: 'Roboto', sans-serif; }
 
+.background {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(rgba(47, 79, 79, 0.8), rgba(47, 79, 79, 0.8)), url("../assets/bg.jpg");
+  background-size: cover;
+  background-position: top center;
+  z-index: -1; }
+
 .color-primary {
   color: green; }
 
@@ -19,6 +28,12 @@ body {
 
 .color-primary-light {
   color: lightgreen; }
+
+.color-accent {
+  color: orange; }
+
+.color-white {
+  color: white; }
 
 .background-grey {
   background: lightgray; }
@@ -61,7 +76,7 @@ body {
   display: block;
   width: 100%;
   max-width: 800px;
-  padding: 2rem 2rem 0rem 2rem;
+  padding: 2rem;
   margin: 0 auto;
   font-size: 1.5rem;
   text-align: center;
@@ -69,16 +84,22 @@ body {
   word-spacing: .5rem;
   font-weight: 400;
   line-height: 2.3rem;
-  color: black; }
+  color: black;
+  background: rgba(255, 255, 255, 0.5); }
+
+.main-heading {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%; }
 
 header {
   display: block;
   top: 0;
   left: 0;
   width: 100%;
-  height: 45px;
+  padding: 1.5rem;
   text-align: center;
-  line-height: 45px;
   font-size: 1.2rem;
   letter-spacing: .2rem;
   word-spacing: .5rem;
@@ -87,17 +108,18 @@ header {
   background: grey; }
 
 section {
-  padding: 1.5rem;
-  min-height: 100vh; }
+  position: raltive;
+  min-height: 100vh;
+  padding-top: 2rem;
+  padding-bottom: 2rem; }
 
 footer {
   display: block;
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 45px;
+  padding: 1.5rem;
   text-align: center;
-  line-height: 45px;
   font-size: 1.3rem;
   color: white;
   background: grey; }

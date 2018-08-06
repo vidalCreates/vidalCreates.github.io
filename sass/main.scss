@@ -15,9 +15,24 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+.background {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  background: 
+  /* top, transparent red, faked with gradient */ 
+  linear-gradient(
+    rgba(darkslategrey, 0.8), 
+    rgba(darkslategrey, 0.8)
+  ),url('../assets/bg.jpg');
+  background-size: cover;
+  background-position: top center;
+  z-index: -1;
+}
+
+@import "base/mixins";
 @import "base/colors";
 @import "base/typography";
-@import "base/mixins";
 
 @import "components/header";
 @import "components/section";
